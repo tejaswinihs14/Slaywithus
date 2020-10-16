@@ -1,0 +1,178 @@
+.contactus{
+   display: flex;
+    width: 100%;
+    height:100vh;
+}
+
+
+
+.customer-care{
+    background: radial-gradient(#fff,#ffd6d6);
+    height: 800px;
+    width:600px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.customer-care > h2{
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.details> p{
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.message-details{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.message-details > h2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 24px;
+}
+
+
+.Name {
+    margin-left: 30px; 
+    margin-top: 20px;
+}
+
+.message-input{
+    width:300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.Email {
+    margin-left: 30px; 
+    margin-top: 20px;
+}
+
+.Message {
+    margin-left: 30px; 
+    margin-top: 20px;
+}
+
+.message-inputs{
+    width:300px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.submit{
+    color: black;
+    margin-left: 20px;
+    width:100px;
+    margin-top: 30px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: radial-gradient(#fff,#ffd6d6); ;
+}
+
+.facebook{
+    color: rgb(110, 66, 75);
+}
+
+
+.footer_contactus{
+    background :white;
+    color:#8a8a8a;
+    font-size:14px;
+    padding: 60px 0 20px;
+    margin-top: 200px;
+    width:1410px;
+    margin-bottom: 20px;
+}
+
+.footer-col-2 > p{
+    color: #8a8a8a;
+    margin-top: 10px;
+}
+
+.footer > h3{
+    color: #fff;
+    margin-bottom: 20px;
+
+}
+
+.footer-col-1 .footer-col-2 .footer-col-3 .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+
+.footer-col-1{
+    flex-basis: 30%;
+    margin-left: 30px;
+    margin-top: 60px;
+}
+
+.footer-col-2 {
+    flex: 1 ;
+    text-align: center;
+}
+
+.footer-col-2 > img{
+    width:180px;
+    margin-bottom: 20px;
+}
+
+.footer-col-3 {
+    flex-basis: 12%;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.app-logo{
+    margin-top: 20px
+}
+
+.app-logo > img{
+    width:140px;
+}
+
+
+.copyright{
+    text-align: center;
+    margin-left: 80px;
+}
+
+.menu-icon{
+    width:24px;
+    margin-left: 20px;
+    display: none;
+}
+
+.header__logo {
+    width: 150px;
+    object-fit: contain;
+    display: flex;
+    /* margin: 0 20px;
+    margin-top:0px; */
+    height: 60px;
+    color: white;
+  }
+
+  .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+   margin-top: -50px;
+  
+}
+

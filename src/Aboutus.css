@@ -1,0 +1,65 @@
+.aboutus{
+    display: flex; 
+}
+
+
+.aboutus > a {
+    text-decoration: none;
+   }
+   
+.aboutus__icon{    
+    flex: 0.3;
+}
+
+.aboutus__description{
+    flex:0.7;
+    margin-right:200px;
+    margin-top: 300px;
+    margin-left:100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutus__icon__us{
+    height:500px;
+    width:500px;
+    margin-left:200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.aboutus__description_1{
+margin-left: 50px;
+font-size: 28px;
+font-weight: 700;
+flex:1;
+}
+
+.aboutus__description_2{
+    height:100px;
+    width:300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 20px;
+    flex:2;
+    }
+
+.aboutus__description_3{
+margin-left: 50px;
+font-size: 20px;
+height:100px;
+width:300px;
+margin-top:20px ;
+flex:3;
+ }
+
+ .aboutus__description_4__icon{
+    height:200px;
+    width:500px;
+    margin-right: 200px;
+    margin-top: 300px;
+    margin-bottom: 100px;
+    flex:4;
+ }
+
+
