@@ -18,8 +18,12 @@ function Home() {
        
         <div className="home">
             <div className="home__container">
+                <div>
+                <img className="home__image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""/>
+                </div>
            
-            <Carousel>
+            {/* <Carousel>
+        
             <div>
             <img className="home__image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""/>
                 </div>
@@ -32,7 +36,7 @@ function Home() {
                 <div>
                 <img className="home__image" src="https://images.unsplash.com/photo-1495555961986-6d4c1ecb7be3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt=""/> 
                 </div>
-                </Carousel>
+                </Carousel> */}
 
                 <div className="home__row">
                     <Product  title="Heavy and warm clothing to wear in very cold weather-Pastel Coat,Sweater,Puffer Coat,Rainbow Sweater,Striped Scarf" price={89.99}

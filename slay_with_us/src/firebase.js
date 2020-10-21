@@ -2,16 +2,20 @@ import firebase from "firebase";
 
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyCfhJhNkpPyxBdtz3WB38XGaaOn1b__u14",
-    authDomain: "bigbasket-shop.firebaseapp.com",
-    databaseURL: "https://bigbasket-shop.firebaseio.com",
-    projectId: "bigbasket-shop",
-    storageBucket: "bigbasket-shop.appspot.com",
-    messagingSenderId: "959151907676",
-    appId: "1:959151907676:web:9c574060a6c78ce94d9799",
-    measurementId: "G-8ZG9K5TGR8"
-  };
+  apiKey: "AIzaSyDPPDkQ91hpNLq4d_FtTr5Cyj-MkB5dij0",
+  authDomain: "slay-with-us.firebaseapp.com",
+  databaseURL: "https://slay-with-us.firebaseio.com",
+  projectId: "slay-with-us",
+  storageBucket: "slay-with-us.appspot.com",
+  messagingSenderId: "621828288153",
+  appId: "1:621828288153:web:a9161ab7df9292da159208",
+  measurementId: "G-07L2L2ZG7H"
+};
+
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 
